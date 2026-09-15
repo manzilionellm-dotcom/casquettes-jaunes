@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casquette FFL Moutarde | Fitness For Life</title>
+<meta name="description" content="Casquette FFL moutarde et bleu marine. Fitness For Life. Livraison rapide.">
+<style>
+:root{
+--moutarde:#E8A33D;
+--moutarde-foncee:#C98A2E;
+--marine:#0A2540;
+--marine-clair:#1B3A5C;
+--blanc:#FFFFFF;
+--gris:#F5F5F5;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:var(--marine);background:var(--gris);line-height:1.6;}
+header{background:var(--marine);color:var(--blanc);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;}
+.logo{font-size:1.5rem;font-weight:800;letter-spacing:1px;}
+.logo span{color:var(--moutarde);}
+nav a{color:var(--blanc);text-decoration:none;margin-left:1.5rem;font-size:0.95rem;}
+nav a:hover{color:var(--moutarde);}
+.hero{background:linear-gradient(135deg,var(--moutarde) 0%,var(--moutarde-foncee) 100%);color:var(--marine);text-align:center;padding:4rem 2rem;}
+.hero h1{font-size:2.5rem;margin-bottom:0.5rem;}
+.hero p{font-size:1.2rem;max-width:600px;margin:0 auto;}
+.product{max-width:1000px;margin:3rem auto;padding:0 2rem;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start;}
+.gallery{display:flex;flex-direction:column;gap:1rem;}
+.main-img{background:var(--moutarde);border-radius:12px;padding:2rem;display:flex;align-items:center;justify-content:center;min-height:400px;}
+.main-img svg{width:100%;max-width:300px;}
+.thumbs{display:flex;gap:1rem;}
+.thumb{background:var(--moutarde);border-radius:8px;padding:1rem;flex:1;cursor:pointer;border:2px solid transparent;}
+.thumb:hover,.thumb.active{border-color:var(--marine);}
+.thumb svg{width:100%;}
+.info h2{font-size:1.8rem;margin-bottom:0.5rem;}
+.price{font-size:2rem;font-weight:700;color:var(--marine);margin:1rem 0;}
+.price span{font-size:1rem;color:#666;text-decoration:line-through;margin-left:0.5rem;}
+.buy-btn{background:var(--marine);color:var(--blanc);border:none;padding:1rem 2rem;font-size:1.1rem;font-weight:600;border-radius:8px;cursor:pointer;width:100%;transition:background 0.2s;}
+.buy-btn:hover{background:var(--marine-clair);}
+.features{margin:2rem 0;}
+.features li{list-style:none;padding:0.5rem 0;border-bottom:1px solid #eee;}
+.features li:before{content:"✓ ";color:var(--moutarde-foncee);font-weight:bold;}
+.shipping{background:var(--blanc);border-radius:12px;padding:1.5rem;margin-top:2rem;}
+.shipping h3{margin-bottom:1rem;color:var(--marine);}
+.shipping p{margin-bottom:0.5rem;font-size:0.95rem;}
+footer{background:var(--marine);color:var(--blanc);text-align:center;padding:2rem;margin-top:3rem;}
+footer a{color:var(--moutarde);}
+@media(max-width:768px){.product{grid-template-columns:1fr;}.hero h1{font-size:1.8rem;}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">FFL<span>.</span></div>
+<nav>
+<a href="#produit">Casquette</a>
+<a href="#livraison">Livraison</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Casquette FFL Moutarde</h1>
+<p>Fitness For Life. Style, confort et attitude. Moutarde et bleu marine.</p>
+</section>
+
+<section class="product" id="produit">
+<div class="gallery">
+<div class="main-img" id="mainImg">
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="100" cy="120" rx="70" ry="50" fill="#E8A33D" stroke="#0A2540" stroke-width="3"/>
+<rect x="30" y="100" width="140" height="40" rx="20" fill="#E8A33D" stroke="#0A2540" stroke-width="3"/>
+<text x="100" y="130" font-family="Arial" font-size="28" font-weight="bold" fill="#0A2540" text-anchor="middle">FFL</text>
+<text x="100" y="150" font-family="Arial" font-size="10" fill="#0A2540" text-anchor="middle" font-style="italic">Fitness For Life</text>
+</svg>
+</div>
+<div class="thumbs">
+<div class="thumb active" onclick="changeImg(0)">
+<svg viewBox="0 0 100 100"><ellipse cx="50" cy="60" rx="35" ry="25" fill="#E8A33D" stroke="#0A2540" stroke-width="2"/><text x="50" y="65" font-size="14" font-weight="bold" fill="#0A2540" text-anchor="middle">FFL</text></svg>
+</div>
+<div class="thumb" onclick="changeImg(1)">
+<svg viewBox="0 0 100 100"><rect x="15" y="50" width="70" height="20" rx="10" fill="#E8A33D" stroke="#0A2540" stroke-width="2"/><text x="50" y="63" font-size="10" font-weight="bold" fill="#0A2540" text-anchor="middle">FFL</text></svg>
+</div>
+<div class="thumb" onclick="changeImg(2)">
+<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30" fill="#0A2540"/><text x="50" y="55" font-size="12" font-weight="bold" fill="#E8A33D" text-anchor="middle">FFL</text></svg>
+</div>
+</div>
+</div>
+<div class="info">
+<h2>Casquette FFL Moutarde</h2>
+<p style="color:#666;margin-bottom:1rem;">Édition Fitness For Life. Logo brodé FFL en bleu marine sur fond moutarde. Signature "Fitness For Life" sur la visère.</p>
+<div class="price">39,90 € <span>49,90 €</span></div>
+<button class="buy-btn" onclick="acheter()">Acheter maintenant</button>
+<ul class="features">
+<li>100% coton, ajustable snapback</li>
+<li>Logo FFL brodé bleu marine</li>
+<li>Couleurs moutarde et bleu marine</li>
+<li>Tailles : 55 à 60 cm</li>
+<li>Lavable en machine</li>
+</ul>
+<div class="shipping" id="livraison">
+<h3>Livraison</h3>
+<p><strong>France métropolitaine :</strong> 4,90 € — Livraison sous 2 à 3 jours ouvrés.</p>
+<p><strong>Europe :</strong> 9,90 € — 5 à 7 jours ouvrés.</p>
+<p><strong>Livraison gratuite</strong> dès 50 € d'achat.</p>
+<p><strong>Retours :</strong> 14 jours, gratuits et sans condition.</p>
+</div>
+</div>
+</section>
+
+<footer>
+<p>FFL — Fitness For Life &copy; 2026</p>
+<p>Casquette moutarde &bull; <a href="#produit">Commander</a></p>
+</footer>
+
+<script>
+function changeImg(i){
+const thumbs=document.querySelectorAll('.thumb');
+thumbs.forEach(t=>t.classList.remove('active'));
+thumbs[i].classList.add('active');
+}
+function acheter(){
+alert('Merci ! Redirection vers le paiement sécurisé (démo).');
+}
+</script>
+</body>
+</html>
