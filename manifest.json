@@ -1,0 +1,23 @@
+{
+  "name": "FFL",
+  "short_name": "FFL",
+  "description": "Fitness For Life — senapskeps 200 kr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F3EEE4",
+  "theme_color": "#13233D",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
