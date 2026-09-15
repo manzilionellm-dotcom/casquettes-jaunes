@@ -1,11 +1,9 @@
 # Casquettes Jaunes — FFL Moutarde
 
-Mini site web pour vendre la casquette FFL moutarde (Fitness For Life).
+Mini boutique pour la casquette FFL moutarde (Fitness For Life).
 
-- Couleurs : moutarde (#E8A33D) et bleu marine (#0A2540)
-- Page produit unique avec photos, prix, bouton acheter et infos livraison
-- Déployé sur Vercel
+- Couleurs : moutarde et bleu marine
+- Page produit unique : photos, 29 €, bouton acheter (Stripe), livraison offerte
+- Déployé sur Vercel : https://casquettes-jaunes.vercel.app
 
-## Déploiement
-
-Le site est un fichier HTML statique. Déployable directement sur Vercel.
+Dépôt séparé du store principal Fitness For Life.
