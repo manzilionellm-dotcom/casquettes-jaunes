@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "casquettes-jaunes.vercel.app" }],
+      "destination": "https://gul-keps.fitnessforlifehats.com/:path*",
+      "permanent": true
+    }
+  ]
+}
