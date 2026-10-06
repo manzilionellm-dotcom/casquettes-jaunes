@@ -1,0 +1,12 @@
+{
+  "name": "casquettes-jaunes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "aio:llms": "node scripts/aio-llms.mjs",
+    "aio:render": "node scripts/aio-render.mjs",
+    "aio:check": "node scripts/aio-check.mjs",
+    "build": "node scripts/aio-llms.mjs && node scripts/aio-render.mjs",
+    "start": "python3 -m http.server 3000"
+  }
+}

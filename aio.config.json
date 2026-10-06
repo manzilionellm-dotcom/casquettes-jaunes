@@ -1,0 +1,155 @@
+{
+  "_doc": "Source unique AIO (llms.txt, FAQPage, Citation Hooks). Ne mettre ici que des faits lisibles sur le site ou dans le dépôt. Toute valeur inconnue = null et listée dans aio.todo.md. Le graphe Schema.org existant (Organization, WebSite, Product/Offer) est conservé tel quel : ne pas dupliquer Product.",
+  "siteName": "Fitness For Life",
+  "siteUrl": "https://gul-keps.fitnessforlifehats.com",
+  "defaultLang": "sv",
+  "currency": "SEK",
+  "contact": null,
+  "checkoutUrl": "https://checkout.7thefew.com/b/5kQ28k4Oa7g7gWY3rEe3e0v",
+  "product": {
+    "name": "FFL senapskeps",
+    "sku": "ffl-yellow-cap-001",
+    "price": 219,
+    "priceCurrency": "SEK",
+    "priceNote": "219 kr inkl. moms"
+  },
+  "tech": {
+    "maxResolution": null,
+    "devices": null,
+    "activationMinutes": null,
+    "bitrate": null,
+    "channelCount": null,
+    "material": "100 % bomull",
+    "color": "Senapsgul & marinblå",
+    "size": "One size, justerbar snapback (55–60 cm)",
+    "shipping": "Fri frakt världen över",
+    "notes": [
+      "Skickas inom 1–2 arbetsdagar",
+      "Leverans Sverige: 1–3 arbetsdagar",
+      "Leverans Europa: 3–7 arbetsdagar",
+      "Leverans övriga världen: 5–10 arbetsdagar",
+      "Ångerrätt: 14 dagar från mottagandet",
+      "Tull utanför EU: betalas av mottagaren (inget belopp angivet)"
+    ]
+  },
+  "preservedGraph": [
+    {
+      "@type": "Organization",
+      "name": "Fitness For Life",
+      "url": "https://gul-keps.fitnessforlifehats.com/",
+      "logo": "https://gul-keps.fitnessforlifehats.com/apple-touch-icon.png"
+    },
+    {
+      "@type": "WebSite",
+      "name": "Fitness For Life",
+      "url": "https://gul-keps.fitnessforlifehats.com/"
+    },
+    {
+      "@type": "Product",
+      "name": "FFL senapskeps — Fitness For Life",
+      "description": "Strukturerad keps i senapsgult med Fitness For Life-logotypen broderad i relief i marinblått. Signaturen Fitness For Life sitter på skärmen — gjord för vardagen och träningen.",
+      "image": [
+        "https://gul-keps.fitnessforlifehats.com/products/front.jpg",
+        "https://gul-keps.fitnessforlifehats.com/products/side-right.jpg",
+        "https://gul-keps.fitnessforlifehats.com/products/side-left.jpg",
+        "https://gul-keps.fitnessforlifehats.com/products/back.jpg",
+        "https://gul-keps.fitnessforlifehats.com/products/interior.jpg"
+      ],
+      "sku": "ffl-yellow-cap-001",
+      "brand": {
+        "@type": "Brand",
+        "name": "Fitness For Life"
+      },
+      "color": "Senapsgul / marinblå",
+      "material": "100 % bomull",
+      "url": "https://gul-keps.fitnessforlifehats.com/",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://gul-keps.fitnessforlifehats.com/",
+        "priceCurrency": "SEK",
+        "price": 219,
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "priceValidUntil": "2027-12-31",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "SE",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 14,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": 0,
+            "currency": "SEK"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "SE"
+          }
+        }
+      }
+    }
+  ],
+  "i18n": {
+    "sv": {
+      "description": "Köp den senapsgula FFL-kepsen med broderad Fitness For Life-logotyp i marinblått. 219 kr inkl. moms. Fri frakt världen över.",
+      "services": [
+        "FFL senapskeps: strukturerad keps i senapsgult med Fitness For Life-logotypen broderad i relief i marinblått. Signaturen Fitness For Life sitter på skärmen. Gjort för vardagen och träningen.",
+        "Varumärke: Fitness For Life (FFL). Egen produktsida, separat från huvudbutiken Fitness For Life (README).",
+        "Webbplats: https://gul-keps.fitnessforlifehats.com/",
+        "Köp: https://checkout.7thefew.com/b/5kQ28k4Oa7g7gWY3rEe3e0v (Stripe, knappen « Köp — 219 kr »)."
+      ],
+      "prices": [
+        "FFL senapskeps: 219 kr inklusive moms",
+        "Frakt: 0 kr (fri frakt världen över, enligt produktsidan)",
+        "Tull utanför EU: betalas av mottagaren (inget belopp angivet på sidan)"
+      ],
+      "faq": [
+        {
+          "q": "Vad kostar FFL senapskepsen?",
+          "a": "Den senapsgula FFL kepsen kostar 219 kronor inklusive moms. Samma belopp står i sidans titel, i prisraden och på köpknappen. Betalningen beskrivs som säker och sker via Stripe. Fri frakt världen över ingår i priset. Sidan visar inget annat pris och ingen annan produkt. Varumärket är Fitness For Life."
+        },
+        {
+          "q": "Vilket material har FFL senapskepsen?",
+          "a": "FFL senapskepsen är gjord av 100 procent bomull enligt specifikationen Material på produktsidan. Kepsen är strukturerad och beskriven som gjord för vardagen och träningen. Färgen är senapsgul med brodyr i marinblått. Sidan anger inte gramvikt, foder, tvättråd eller ursprungsland för tyget."
+        },
+        {
+          "q": "Vilken storlek har FFL senapskepsen?",
+          "a": "Storleken anges som one size med justerbar snapback, från 55 till 60 centimeter. Uppgiften står i specifikationen Storlek bredvid material, färg och frakt. Sidan listar inte small, medium eller large. Passformen ställs in med snapbacken. Ingen ytterligare måttabell publiceras utöver intervallet 55 till 60 centimeter."
+        },
+        {
+          "q": "Hur ser färg och logotyp ut på kepsen?",
+          "a": "Kepsen är senapsgul och har Fitness For Life logotypen broderad i relief i marinblått. Signaturen Fitness For Life sitter på skärmen. Sidan visar två färger, senapsgul och marinblå. Texten säger att kepsen är gjord för vardagen och träningen. Inga fler färger eller brodyrplaceringar beskrivs."
+        },
+        {
+          "q": "Hur lång är leveranstiden för kepsen?",
+          "a": "Beställningen skickas inom 1 till 2 arbetsdagar. Leverans till Sverige tar 1 till 3 arbetsdagar, till Europa 3 till 7 arbetsdagar och till övriga världen 5 till 10 arbetsdagar. En spårningslänk skickas vid utleverans. Sidan namnger inget transportbolag och ingen exakt leveransklocka."
+        },
+        {
+          "q": "Ingår frakten i priset på 219 kronor?",
+          "a": "Ja. Fri frakt världen över ingår, både i specifikationen Frakt och i texten under köpknappen. Priset 219 kronor är inklusive moms. Utanför EU betalar mottagaren tullen. Sidan anger ingen separat fraktavgift och ingen minsta ordersumma. Erbjudandet gäller den senapsgula FFL kepsen på den här sidan."
+        },
+        {
+          "q": "Hur fungerar ångerrätten för FFL senapskepsen?",
+          "a": "Du har 14 dagars ångerrätt räknat från att du tagit emot varan. Du får undersöka kepsen som i en butik. En spårningslänk skickas vid utleverans. Sidan publicerar inte returadress, returkostnad eller ett formulär för att anmäla returen. Någon separat steg för steg guide finns inte."
+        },
+        {
+          "q": "Hur betalar jag för FFL senapskepsen?",
+          "a": "Köpknappen leder till betalning som sidan kallar säker betalning via Stripe. Under knappen står 219 kronor inklusive moms. Sidan nämner inte faktura, Swish eller någon annan betalmetod än Stripe. Priset på knappen är detsamma som i sidans titel. Fri frakt världen över står kvar som en del av erbjudandet."
+        },
+        {
+          "q": "Vad ingår när jag köper FFL senapskepsen?",
+          "a": "Köpet gäller den senapsgula FFL kepsen med broderad logotyp i marinblått. Priset är 219 kronor inklusive moms och fri frakt världen över. Sidan anger skick inom 1 till 2 arbetsdagar, 14 dagars ångerrätt och säker betalning via Stripe. Materialet är 100 procent bomull. Storleken är one size med justerbar snapback."
+        },
+        {
+          "q": "Vem betalar tull vid leverans utanför EU?",
+          "a": "Vid leverans utanför EU betalar mottagaren tullen. Det står i texten om retur, tillsammans med 14 dagars ångerrätt och att en spårningslänk skickas vid utleverans. Fri frakt världen över gäller ändå enligt produktsidan. Sidan anger inga tullbelopp, inga procentsatser och inga länder som är undantagna från tullen."
+        }
+      ]
+    }
+  }
+}
